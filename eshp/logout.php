@@ -1,0 +1,12 @@
+<?php
+session_start();
+session_destroy();
+if(!$_SESSION['client_id'])
+{
+    header('Location:index.php');   
+}
+else
+{
+    header('Location:index.php');
+}
+?>

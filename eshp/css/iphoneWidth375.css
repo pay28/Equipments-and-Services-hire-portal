@@ -1,0 +1,1020 @@
+@media only screen and (max-width:375px) and (max-height:1200px) and (min-height:751px) and (orientation:portrait){
+#top{width:25px;height: 25px;}
+#top::after {line-height: 25px;}
+#top{position: fixed;bottom: 50px;right: 30px;}
+.home-wrapper {height:80vh;}
+header{height:12%;}
+.topnav,.topnav div{width:100%;}
+.topnav div a {padding: 10px 12px;}
+.topnav div{text-align:left;}
+.topnav #homelink{padding-left:30px;}
+.topnav .icon{visibility: visible;}
+/*Photo Page*/
+.photo-wrapper{height:450vh;}
+.photocontainer{width:90%;position:absolute;top:2%;left:5%;}
+#thumbs{margin:0;padding:0;border:none;border-color:white;
+border-bottom-color:#d5d5d5;border-style:outset;width:100%;}
+.column h1{padding: 10px 0px;font-size: 8vw;}
+/******* End Photo Page *****************/
+/****************************LOGO HOVER CHANGE***************************/
+.swap-on-hover {position: relative;left:0%;top:15px;margin:auto;width:60%;z-index:9999;}
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {position: absolute;left:15%;overflow: hidden;max-width: 80%;height:auto;}
+#home-image img{z-index:9999;width:100%;opacity:1;margin:auto;}
+section #homecenter h2 img{width:5%;}
+section #homecenter h2{font-size:12px;letter-spacing: 5px;position:absolute;
+	left:1%;top:90%;opacity:1;color:#fff;}
+/*Punjabi and bollywood Dj text*/
+#cf img {position:absolute;left:15%;top:150%;width:70%;max-width:70%;}
+/********** Global Footer ***************/
+footer {height: 50px;z-index:9999;}
+footer #designedBy {padding-top:10px;}
+#designedBy p{font-size:2.5vw;}
+footer #copyright {padding-top:10px;}
+footer #copyright p {font-size:3vw;}
+footer #social{position:absolute;top:20%;right:3%;}
+footer #social img.tilt{width:12%;}
+/* Heading of Pages*/
+.content-heading{width:25%;font-size: 5vw;}
+/*********************Sevices
+(max-width:375px) and (max-height:820px) and (min-height:751px) and (orientation:portrait)
+*****************************/
+.serviceswrapper{height: 330vh;}
+.servicescontent{width:70%;height:auto;position:absolute;top:4%;left:15%;}
+.servicescontent #advanced{margin-left:0%;}
+.servicescontent #pro{margin-left:0%;}
+.pic{margin-left:0px;margin-top:0%;padding:5%;padding-top:3.5%;}
+.pic p {font-size: 5vw;padding:10px;}
+.pic h1 {font-size: 6vw;}
+.pic h3 {padding-top:20px;font-size: 8vw;}
+.pic-caption{padding-top: 20px;padding-left: 15px;letter-spacing:2px;line-height:6vw;  }
+.captionstyle{font-size:3vw;}
+.services-section .packdetails{width:80%;margin-left:10%;position:absolute;top:35%;left:0%;}
+.services-section .packdetails h3{padding-bottom:2%;font-size:5vw;padding-top:30%;	}
+.services-section .packdetails h2{padding-top:0px; font-size:7vw; }
+.services-section .packdetails p{font-size:4vw;color:white;line-height:150%;}
+.services-section .packdetails hr{width:80%;}
+/************ End Services Page *********************/
+
+/* *****************************Video Page 
+(max-width:375px) and (max-height:820px) and (min-height:751px) and (orientation:portrait)
+************/
+.extraheightwrapperVideos{height: 200vh;}
+.videocontainer{width:85%;position:absolute;top:5%;left:7.5%;}
+.videoRow{width: 100%;height:220px;margin-top:1px;float:left;content: "";clear: both;display: table;}
+div.desc {font-size: 4vw;}
+.videoRow iframe{width: 100%;height:220px;}
+video{height:210px;}
+/* *************** End Video Page************/
+ 
+/***********************************About Page 
+(max-width:375px) and (max-height:820px) and (min-height:751px) and (orientation:portrait)
+**********************/
+.extraheightwrapperAbout{height:240vh; }
+.serving-container{	position:relative;top:8%;width:90%;height:auto;}
+.text2{font-size:10vw;line-height:1rem;margin-top:20px;padding:10px;letter-spacing: 0.3rem;	}
+#div1{font-size:10vw;line-height:1rem;padding:20px;}
+@keyframes text{0%{font-size:10vw;margin-bottom:-80px;}30%{font-size:10vw;letter-spacing:25px;margin-bottom:-80px;}
+	85%{font-size:10vw;letter-spacing:8px;margin-bottom:-80px;}}
+.about-content{width:80%;padding-top:10px;position:absolute;left:10%;top:28%;
+	line-height:30px;letter-spacing:2px;}
+.about-content h2{text-align:center;font-family: 'Raleway';font-size:20px;line-height:150%;
+	padding-bottom:12%;}
+.about-content h3   {font-size:6vw;text-align:left;padding-top:20px;color:#FFDF00;}
+.about-content ol li{color:#FFDF00;margin-top:10%;margin-left:20px;font-family: 'Open Sans', sans-serif;font-size:4vw;}
+.about-content dl dt{font-family: 'Open Sans', sans-serif;line-height:2rem;font-size:4vw;margin-top:3%;text-align:left;}
+.about-content dl dd{font-size:4vw;margin-left:5%;margin-top:2%;}
+.about-content p    {font-size:4vw;}
+.about-content ol dd{padding-top:2%;font-size:4vw;}
+.dance{width:100%;position:absolute;top:20%;left:0%;}
+.dance #secondDanceImg{width:100%;position:absolute;left:3%;z-index:9999;}
+.dance img{ max-width:60%;position:absolute;left:40%;}
+
+/********************************** FAQ Page
+(max-width:375px) and (max-height:820px) and (min-height:751px) and (orientation:portrait)
+ *****************/
+.extraheightwrapperFaq{height: 270vh;}
+.faq-content{width:80%;position:absolute;left:13%;top:5%;}
+.faq-content ol li{margin-left:10px;font-size:4vw;}
+.faq-content ol dd{font-size:4vw;}
+/********************** END FAQ Page *****************/
+
+/**************** ******************Contact Page 
+(max-width:375px) and (max-height:820px) and (min-height:751px) and (orientation:portrait)
+*************************/
+.extraheightwrapperContact{height: 170vh;}
+.contact-banner{height:30vw; }	
+#about-banner{height:20vw;}
+#about-banner h1{ top:15%;}
+.contact-banner h1{width:90%;font-size: 10vw;letter-spacing: 5px;top:8%;}
+.details{width: 90vw;height:30vw;position:absolute;left:5%;top:15%;}
+.details h3{font-size:25px;}
+.details div{ height: 10vw;}
+.details div #icon{width:7vw;margin-top:2%;}
+.details div p{width:65%;font-size: 5vw;position:relative;left:25%;top:-65%;}
+.details div p a{color:#000;width:60%;font-size: 4.5vw;letter-spacing: 3px;position:relative;left:0%;top:-55%;}
+.contact-social div{text-align:center;margin-top:3%;}
+.contact-social div a{padding:3%;}
+.contact-social div a img.tilt{width:7%;}
+.form-container {width:90%;font-size: 1vw;position:absolute;left:5%;top:37%;text-align:center;}
+.form-container h3{text-align:center;color:black;font-size:25px;padding-top:20px;padding-bottom:10px;}
+#contactHours{width:90%;margin:auto;position:absolute;left:5%;top:68%;}
+#contactHours h3{background-color:#fff;font-size:8vw;padding:20px;}
+#contactHours p{background-color:rgba(226,244,251,1);padding:20px 30px;width:100%;font-size: 5vw;letter-spacing: 3px;}
+
+}
+/************* END 
+(max-width:375px) and (max-height:750px) and (min-height:650px) and (orientation:portrait)
+**************/
+
+@media only screen and (max-width:375px) and (max-height:750px) and (min-height:651px) and (orientation:portrait){
+#top{width:25px;height: 25px;}
+#top::after {line-height: 25px;}
+#top{position: fixed;bottom: 50px;right: 30px;}
+.home-wrapper {height:80vh;}
+header{height:12%;}
+.topnav,.topnav div{width:100%;}
+.topnav div a {padding: 10px 12px;}
+.topnav div{text-align:left;}
+.topnav #homelink{padding-left:30px;}
+.topnav .icon{visibility: visible;}
+/*Photo Page*/
+.photo-wrapper{height:550vh;}
+.photocontainer{width:90%;position:absolute;top:2%;left:5%;}
+#thumbs{margin:0;padding:0;border:none;border-color:white;
+border-bottom-color:#d5d5d5;border-style:outset;width:100%;}
+.column h1{padding: 10px 0px;font-size: 8vw;}
+/******* End Photo Page *****************/
+/****************************LOGO HOVER CHANGE***************************/
+.swap-on-hover {position: relative;left:0%;top:15px;margin:auto;width:60%;z-index:9999;}
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {position: absolute;left:15%;overflow: hidden;max-width: 80%;height:auto;}
+#home-image img{z-index:9999;width:100%;opacity:1;margin:auto;}
+section #homecenter h2 img{width:5%;}
+section #homecenter h2{font-size:12px;letter-spacing: 5px;position:absolute;
+	left:1%;top:90%;opacity:1;color:#fff;}
+/*Punjabi and bollywood Dj text*/
+#cf img {position:absolute;left:15%;top:130%;width:70%;max-width:70%;}
+/********** Global Footer ***************/
+footer {height: 50px;z-index:9999;}
+footer #designedBy {padding-top:10px;}
+#designedBy p{font-size:2.5vw;}
+footer #copyright {padding-top:10px;}
+footer #copyright p {font-size:3vw;}
+footer #social{position:absolute;top:20%;right:3%;}
+footer #social img.tilt{width:12%;}
+/* Heading of Pages*/
+.content-heading{width:25%;font-size: 5vw;}
+/*********************Sevices
+(max-width:375px) and (max-height:750px) and (min-height:650px) and (orientation:portrait)
+*****************************/
+.serviceswrapper{height: 410vh;}
+.servicescontent{width:70%;height:auto;position:absolute;top:4%;left:15%;}
+.servicescontent #advanced{margin-left:0%;}
+.servicescontent #pro{margin-left:0%;}
+.pic{margin-left:0px;margin-top:0%;padding:5%;padding-top:3.5%;}
+.pic p {font-size: 5vw;padding:10px;}
+.pic h1 {font-size: 6vw;}
+.pic h3 {padding-top:20px;font-size: 8vw;}
+.pic-caption{padding-top: 20px;padding-left: 15px;letter-spacing:2px;line-height:6vw;  }
+.captionstyle{font-size:3vw;}
+.services-section .packdetails{width:80%;margin-left:10%;position:absolute;top:35%;left:0%;}
+.services-section .packdetails h3{padding-bottom:2%;font-size:5vw;padding-top:30%;	}
+.services-section .packdetails h2{padding-top:0px; font-size:7vw; }
+.services-section .packdetails p{font-size:4vw;color:white;line-height:150%;}
+.services-section .packdetails hr{width:80%;}
+/************ End Services Page *********************/
+
+/* *****************************Video Page 
+(max-width:375px) and (max-height:750px) and (min-height:650px) and (orientation:portrait)
+************/
+.extraheightwrapperVideos{height: 280vh;}
+.videocontainer{width:85%;position:absolute;top:5%;left:7.5%;}
+.videoRow{width: 100%;height:220px;margin-top:1px;float:left;content: "";clear: both;display: table;}
+div.desc {font-size: 4vw;}
+.videoRow iframe{width: 100%;height:220px;}
+/* *************** End Video Page************/
+ 
+/***********************************About Page 
+(max-width:375px) and (max-height:750px) and (min-height:650px) and (orientation:portrait)
+**********************/
+.extraheightwrapperAbout{height:270vh; }
+.serving-container{	position:relative;top:8%;width:90%;height:auto;}
+.text2{font-size:10vw;line-height:1rem;margin-top:20px;padding:10px;letter-spacing: 0.3rem;	}
+#div1{font-size:10vw;line-height:1rem;padding:20px;}
+@keyframes text{0%{font-size:10vw;margin-bottom:-80px;}30%{font-size:10vw;letter-spacing:25px;margin-bottom:-80px;}
+	85%{font-size:10vw;letter-spacing:8px;margin-bottom:-80px;}}
+.about-content{width:80%;padding-top:10px;position:absolute;left:10%;top:28%;
+	line-height:30px;letter-spacing:2px;}
+.about-content h2{text-align:center;font-family: 'Raleway';font-size:20px;line-height:150%;
+	padding-bottom:12%;}
+.about-content h3   {font-size:6vw;text-align:left;padding-top:20px;color:#FFDF00;}
+.about-content ol li{color:#FFDF00;margin-top:10%;margin-left:20px;font-family: 'Open Sans', sans-serif;font-size:4vw;}
+.about-content dl dt{font-family: 'Open Sans', sans-serif;line-height:2rem;font-size:4vw;margin-top:3%;text-align:left;}
+.about-content dl dd{font-size:4vw;margin-left:5%;margin-top:2%;}
+.about-content p    {font-size:4vw;}
+.about-content ol dd{padding-top:2%;font-size:4vw;}
+.dance{width:100%;position:absolute;top:20%;left:0%;}
+.dance #secondDanceImg{width:100%;position:absolute;left:3%;z-index:9999;}
+.dance img{ max-width:60%;position:absolute;left:40%;}
+
+/********************************** FAQ Page
+(max-width:375px) and (max-height:750px) and (min-height:650px) and (orientation:portrait)
+ *****************/
+.extraheightwrapperFaq{height: 350vh;}
+.faq-content{width:80%;position:absolute;left:13%;top:5%;}
+.faq-content ol li{margin-left:10px;font-size:4vw;}
+.faq-content ol dd{font-size:4vw;}
+/********************** END FAQ Page *****************/
+
+/**************** ******************Contact Page 
+(max-width:375px) and (max-height:750px) and (min-height:650px) and (orientation:portrait)
+*************************/
+.extraheightwrapperContact{height: 200vh;}
+.contact-banner{height:30vw; }	
+#about-banner{height:20vw;}
+#about-banner h1{ top:15%;}
+.contact-banner h1{width:90%;font-size: 10vw;letter-spacing: 5px;top:8%;}
+.details{width: 90vw;height:30vw;position:absolute;left:5%;top:15%;}
+.details h3{font-size:25px;}
+.details div{ height: 10vw;}
+.details div #icon{width:7vw;margin-top:2%;}
+.details div p{width:65%;font-size: 5vw;position:relative;left:25%;top:-65%;}
+.details div p a{color:#000;width:60%;font-size: 4.5vw;letter-spacing: 3px;position:relative;left:0%;top:-55%;}
+.contact-social div{text-align:center;margin-top:3%;}
+.contact-social div a{padding:3%;}
+.contact-social div a img.tilt{width:7%;}
+.form-container {width:90%;font-size: 1vw;position:absolute;left:5%;top:38%;text-align:center;}
+.form-container h3{text-align:center;color:black;font-size:25px;padding-top:20px;padding-bottom:10px;}
+#contactHours{width:90%;margin:auto;position:absolute;left:5%;top:68%;}
+#contactHours h3{background-color:#fff;font-size:8vw;padding:20px;}
+#contactHours p{background-color:rgba(226,244,251,1);padding:20px 30px;width:100%;font-size: 5vw;letter-spacing: 3px;}
+
+}
+/************* END 
+(max-width:375px) and (max-height:750px) and (min-height:650px) and (orientation:portrait)
+**************/
+
+/* Iphone X and smaller 375px and down) height 896px */
+@media only screen and (max-width: 375px)and (max-height:650px) and (min-height:481px) and (orientation:portrait) {
+
+#top{width:25px;height: 25px;}
+#top::after {line-height: 25px;}
+#top{position:fixed;bottom:50px;}
+.home-wrapper {height:80vh;}
+.topnav,.topnav div{width:100%;}
+.topnav div a {
+   padding: 10px 12px;}
+.topnav div{text-align:left;}
+.topnav #homelink{padding-left:30px;}
+.topnav .icon{
+  visibility: visible;
+}
+header{height:12%;}
+.swap-on-hover {position: relative;left:0%;top:15px;
+	margin:auto;width:60%;
+	z-index:9999;
+	}
+	/**************************************************LOGO HOVER CHANGE***************************/
+
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {
+  position: absolute;
+	left:15%;
+  
+	overflow: hidden;
+	/* Sets the width and height for the images*/
+	max-width: 80%;
+	height:auto;	
+}	
+#home-image img{
+	z-index:9999;
+	width:100%;
+	/*border-radius:50px;*/
+	opacity:1;
+	margin:auto;
+	
+}
+section #homecenter h2 img{
+	width:5%;
+}
+section #homecenter h2{
+	font-size:12px;
+letter-spacing: 5px;	
+	position:absolute;
+	left:1%;
+	top:90%;	
+	opacity:1;
+	color:#fff;/*EAE7DC;/*#f1e94d;	*/
+}
+
+
+/*Punjabi and bollywood Dj text*/
+#cf img {
+position:absolute;
+  left:15%; 
+  top:130%;
+  width:70%;
+  max-width:70%;
+}
+/*********Photo Page 
+(max-width: 375px)and (max-height:649px) and (min-height:479px) and (orientation:portrait)
+****************/
+.photo-wrapper{height:550vh;}
+.photocontainer{width:90%;
+position:absolute;
+top:2%;
+left:5%;}
+#thumbs{margin:0;padding:0;	
+border:none;border-color:white;border-bottom-color:#d5d5d5;border-style:outset;
+width:100%;
+transform:scale(1);transition: all 0.8s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;-ms-transition: all 0.5s ease;
+}
+.column h1{padding: 10px 0px;font-size: 8vw;}
+
+/*************************/
+footer {   
+    height: 50px;
+	z-index:9999;
+    }
+footer #designedBy {
+	padding-top:10px;		
+}
+#designedBy p{
+	font-size:2.5vw;	
+}
+footer #copyright {	
+padding-top:10px;}
+footer #copyright p {   
+	font-size:3vw;	
+}
+footer #social{
+	position:absolute;
+	top:20%;
+	right:3%;
+}
+footer #social img.tilt{
+	width:12%;
+}
+
+/* Heading of Pages*/
+.content-heading{	
+	width:25%;		
+    font-size: 5vw;	
+}	
+	/* light bulbs in bannaer*/
+#lightsonphotos,#lightsonvideos{
+	position:absolute;
+	top:0%;
+	left:25%;	
+	max-width:60%;
+}
+#lightsonabout{
+	
+	position:absolute;
+	top:0%;
+	left:20%;	
+max-width:65%;
+}
+#lightsonservices{
+	animation: fadeInlights 1s ease-in-out infinite alternate;
+	position:absolute;
+	top:-5%;
+	left:25%;	
+max-width:55%;
+}
+
+/**************** Services page 
+(max-width: 375px)and (max-height:649px) and (min-height:479px) 
+and (orientation:portrait)
+**********************/
+
+
+.serviceswrapper{height: 400vh;}
+
+.servicescontent {	
+	width:70%;
+	height:auto;
+	position:absolute;
+	top:4%;
+	left:15%;
+}
+.servicescontent #advanced{margin-left:0%;}
+.servicescontent #pro{margin-left:0%;}
+.pic{margin-left:0px;margin-top:0%;padding:5%;padding-top:3.5%;}
+.pic p {font-size: 5vw;padding:10px;}
+.pic h1 {font-size: 6vw;}
+.pic h3 {padding-top:20px;font-size: 8vw;}
+.pic-caption {
+    padding-top: 20px;
+	padding-left: 15px;
+	letter-spacing:2px;   
+	line-height:6vw;  }
+.captionstyle{font-size:3vw;}
+.services-section .packdetails{width:80%;margin-left:10%;position:absolute;top:35%;left:0%;}
+.services-section .packdetails h3{
+	padding-bottom:2%;
+	font-size:5vw;	
+	padding-top:30%;	}
+.services-section .packdetails h2{padding-top:20px;
+    font-size:7vw;  }
+.services-section .packdetails p{
+	font-size:4vw;	
+	color:white;
+	line-height:150%;}
+	.services-section .packdetails hr{width:80%;}
+	
+
+/************ End Services Page *********************/
+/* ***************Video Page 
+(max-width: 375px)and (max-height:649px) and (min-height:479px) and (orientation:portrait)
+************/
+.extraheightwrapperVideos{
+	height: 300vh;    
+}
+.videocontainer{
+	width:85%;
+	position:absolute;
+	top:5%;
+	left:7.5%;
+	}
+
+.videoRow{
+  width: 100%; 
+  height:220px;
+  margin-top:1px;
+  float:left;
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+div.desc {
+  font-size: 4vw;
+ }
+.videoRow iframe{
+	width: 100%;
+  height:220px;
+}
+/*********************About PAge 
+(max-width: 375px)and (max-height:649px) and (min-height:479px) and (orientation:portrait)
+**********************/
+
+.extraheightwrapperAbout{height: 300vh; }
+.serving-container{	
+	position:relative;	
+	top:7%;	
+	width:90%;
+	height:auto;
+	}
+.text2{
+	font-size:10vw;
+	line-height:1rem;
+	margin-top:20px;
+	padding:10px;
+	letter-spacing: 0.3rem;	
+}
+#div1{
+	font-size:10vw;	
+	line-height:1rem;
+	padding:20px;
+	}
+@keyframes text{
+	0%{
+		font-size:10vw;
+			
+		margin-bottom:-80px;
+	}
+	30%{
+		font-size:10vw;
+		letter-spacing:25px;
+		margin-bottom:-80px;
+		
+	}
+	85%{
+		font-size:10vw;
+		letter-spacing:8px;
+		margin-bottom:-80px;
+	}
+	
+}
+.about-content{
+	width:80%;
+	height:auto;
+	margin:auto;
+	padding-top:10px;
+	position:absolute;
+	left:10%;
+	top:26%;
+	line-height:30px;
+	letter-spacing:2px;
+	}
+.contact-banner{
+	height:30vw; }
+#about-banner{height:20vw;}
+#about-banner h1{ top:13%;}
+	.about-content h2{
+	text-align:center;
+	font-family: 'Raleway';
+	font-size:20px;
+	line-height:150%;
+	padding-bottom:12%;
+}
+.about-content h3{
+	font-size:6vw;
+	text-align:left;
+	padding-top:20px;
+	color:#FFDF00;
+}
+
+.about-content ol li{color:#FFDF00;margin-top:10%;margin-left:20px;font-family: 'Open Sans', sans-serif;font-size:4vw;}
+.about-content dl dt{font-family: 'Open Sans', sans-serif;line-height:2rem;font-size:4vw;margin-top:3%;text-align:left;}
+.about-content dl dd{font-size:4vw;margin-left:5%;margin-top:2%;}
+.about-content p{font-size:4vw;}
+.about-content ol dd{padding-top:2%;font-size:4vw;}
+.dance{
+	
+	width:100%;
+	position:absolute;
+	top:18%;
+	left:0%;
+}
+.dance #secondDanceImg{
+	width:100%;
+	position:absolute;
+	left:3%;
+	z-index:9999;
+}
+.dance img{ max-width:60%;position:absolute;left:40%;}
+/******************* FAQ Page
+(max-width: 375px)and (max-height:649px) and (min-height:479px) and (orientation:portrait)
+ *****************/
+.extraheightwrapperFaq{height: 350vh;}
+.faq-content{width:80%;
+	position:absolute;
+	left:13%;
+	top:5%;
+}
+.faq-content ol li{margin-left:10px;font-size:4vw;}
+.faq-content ol dd{font-size:4vw;}
+/******************* END FAQ Page *****************/
+/**************** Contact Page 
+(max-width: 375px)and (max-height:649px) and (min-height:479px) and (orientation:portrait)
+*************************/
+.extraheightwrapperContact{	height: 210vh;}
+
+.contact-banner h1{
+	width:90%;   
+    font-size: 10vw;	
+	letter-spacing: 5px;
+	top:8%;
+	}
+.details{
+	width: 90vw;
+    height:30vw;
+	position:absolute;
+	left:5%;
+	top:12%;	
+}
+.details h3{
+	font-size:25px;padding-top:20px; padding-bottom:10px;
+	
+}
+.details div{ height: 12vw; }
+.details div #icon{width:7vw;margin-top:3%;}
+.details div p{width:65%;font-size: 5vw;position:relative;left:25%;top:-65%;}
+.details div p a{color:#000;width:60%;font-size: 4.5vw;letter-spacing: 3px;position:relative;left:0%;top:-55%;}
+.contact-social div{text-align:center;margin-top:3%;}
+.contact-social div a{padding:3%;}
+.contact-social div a img.tilt{width:7%;}
+.form-container {
+	width:90%;
+    font-size: 1vw;
+	position:absolute;
+	left:5%;
+	top:33%;
+	text-align:center;
+}
+.form-container h3{text-align:center;	
+	color:black;font-size:25px;padding-top:20px;padding-bottom:10px;
+	}
+	
+#contactHours{			
+			width:90%;
+			margin:auto;
+			position:absolute;
+			left:5%;
+			top:68%;
+	}
+#contactHours h3{
+	background-color:#fff;	
+	font-size:8vw;	
+	padding:20px;
+	
+}
+#contactHours p{
+	background-color:rgba(226,244,251,1);
+	padding:20px 30px;width:100%;font-size: 5vw;letter-spacing: 3px;
+}
+	
+}
+
+/* Iphone 4 width 375px  height 480px */
+@media only screen and (max-width: 375px)and (max-height:480px) and (orientation:portrait){
+	#top{width:25px;height: 25px;}
+#top::after {line-height: 25px;}
+#top{
+	position: fixed;
+  bottom: 50px;
+  right: 30px;
+}
+.home-wrapper {height:100vh;}
+.topnav,.topnav div{width:100%;}
+.topnav div a {padding: 10px 12px;}
+.topnav div{text-align:left;}
+.topnav #homelink{padding-left:30px;}
+.topnav .icon{visibility: visible;}
+header{height:12%;}
+.swap-on-hover {position: relative;left:0%;top:5px;
+	margin:auto;width:60%;
+	z-index:9999;
+	}
+/**************************************************LOGO HOVER CHANGE***************************/
+
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {
+  position: absolute;
+	left:15%;  
+	overflow: hidden;
+	max-width: 80%;
+	height:auto;	
+}	
+/*Photos Page*/
+.photo-wrapper{height:650vh;}
+.photocontainer{width:90%;position:absolute;top:2%;left:5%;}
+#thumbs{margin:0;padding:0;	
+border:none;border-color:white;border-bottom-color:#d5d5d5;border-style:outset;
+width:100%;
+transform:scale(1);transition: all 0.8s ease;
+-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;-ms-transition: all 0.5s ease;
+}
+.column h1{	 padding: 15px;  font-size: 8vw;	}
+/*************** End Photos Page**************/
+header{height:12%;}
+.swap-on-hover {position: relative;left:0%;top:5px;
+	margin:auto;width:60%;
+	z-index:9999;
+	}
+/**************************************************LOGO HOVER CHANGE***************************/
+
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {
+  position: absolute;
+	left:15%;
+  
+	overflow: hidden;
+	/* Sets the width and height for the images*/
+	max-width: 80%;
+	height:auto;	
+}	
+	/*.btn-group-home{display:block;}
+	.btn-group{	position:absolute;top:11.5%;right:35%;z-index:9999;}
+	.btn-group button {font-size: 4vw;padding: 4px 10px;text-align:center;}
+  .btn-group-home{	  
+	  height:15%;
+	  width:30%;
+	  margin:auto;
+	  position:absolute;
+	top:170%;
+	left:0%;
+	z-index:9999;  }
+.btn-group-home button { 
+	font-size: 5vw; 
+	padding: 4px 10px;  
+	text-align:center;
+  }
+.btn-group-home-top{
+	display:none;
+  }
+  */
+#home-image img{
+	z-index:9999;
+	width:100%;
+	/*border-radius:50px;*/
+	opacity:1;
+	margin:auto;
+	
+}
+section #homecenter h2 img{
+	width:5%;
+}
+section #homecenter h2{
+	font-size:12px;
+letter-spacing: 5px;	
+	position:absolute;
+	left:1%;
+	top:90%;	
+	opacity:1;
+	color:#fff;/*EAE7DC;/*#f1e94d;	*/
+}
+
+
+/*Punjabi and bollywood Dj text*/
+#cf img {
+position:absolute;
+  left:15%; 
+  top:130%;
+  width:70%;
+  max-width:70%;
+}
+/*************************/
+footer {   
+    height: 50px;
+	z-index:9999;
+    }
+footer #designedBy {
+	padding-top:10px;		
+}
+#designedBy p{
+	font-size:2.5vw;	
+}
+footer #copyright {	
+padding-top:10px;}
+footer #copyright p {   
+	font-size:3vw;	
+}
+footer #social{
+	position:absolute;
+	top:20%;
+	right:3%;
+}
+footer #social img.tilt{
+	width:12%;
+}
+
+/* Heading of Pages*/
+.content-heading{	
+	width:25%;		
+    font-size: 5vw;	
+}	
+	/* light bulbs in bannaer*/
+#lightsonphotos,#lightsonvideos{
+	position:absolute;
+	top:0%;
+	left:25%;	
+	max-width:60%;
+}
+#lightsonabout{
+	
+	position:absolute;
+	top:0%;
+	left:20%;	
+max-width:65%;
+}
+#lightsonservices{
+	animation: fadeInlights 1s ease-in-out infinite alternate;
+	position:absolute;
+	top:-5%;
+	left:25%;	
+max-width:55%;
+}
+
+/**************** Services page (max-width: 375px)**********************/
+
+
+.serviceswrapper{height: 480vh;}
+
+.servicescontent {	
+	width:70%;
+	height:auto;
+	position:absolute;
+	top:4%;
+	left:15%;
+}
+.servicescontent #advanced{margin-left:0%;}
+.servicescontent #pro{margin-left:0%;}
+.pic{margin-left:0px;margin-top:0%;padding:5%;padding-top:3.5%;}
+.pic p {font-size: 5vw;padding:10px;}
+.pic h1 {font-size: 6vw;}
+.pic h3 {padding-top:20px;font-size: 8vw;}
+.pic-caption {
+    padding-top: 20px;
+	padding-left: 15px;
+	letter-spacing:2px;   
+	line-height:6vw;  }
+.captionstyle{font-size:3vw;}
+.services-section .packdetails{width:80%;margin-left:10%;position:absolute;top:35%;left:0%;}
+.services-section .packdetails h3{
+	padding-bottom:2%;
+	font-size:5vw;	
+	padding-top:30%;	}
+.services-section .packdetails h2{padding-top:20px;
+    font-size:7vw;  }
+.services-section .packdetails p{
+	font-size:4vw;	
+	color:white;
+	line-height:150%;}
+	.services-section .packdetails hr{width:80%;}
+	
+
+/************ End Services Page *********************/
+/* ***************Video Page (max-width: 375px)************/
+.extraheightwrapperVideos{
+	height: 400vh;    
+}
+.videocontainer{
+	width:85%;
+	position:absolute;
+	top:5%;
+	left:7.5%;
+	}
+
+.videoRow{
+  width: 100%; 
+  height:220px;
+  margin-top:1px;
+  float:left;
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+div.desc {
+  font-size: 4vw;
+ }
+.videoRow iframe{
+	width: 100%;
+  height:220px;
+}
+/*********************About PAge (max-width: 375px)**********************/
+
+.extraheightwrapperAbout{
+	width: 100%;
+	height: 350vh;  
+	overflow:hidden;
+}
+
+
+.serving-container{	
+	position:relative;	
+	top:7%;
+	
+	width:90%;
+	height:auto;
+	}
+.text2{
+	font-size:10vw;
+	line-height:1rem;
+	margin-top:20px;
+	padding:10px;
+	letter-spacing: 0.3rem;	
+}
+#div1{
+	font-size:10vw;	
+	line-height:1rem;
+	padding:20px;
+	}
+@keyframes text{
+	0%{
+		font-size:10vw;
+			
+		margin-bottom:-80px;
+	}
+	30%{
+		font-size:10vw;
+		letter-spacing:25px;
+		margin-bottom:-80px;
+		
+	}
+	85%{
+		font-size:10vw;
+		letter-spacing:8px;
+		margin-bottom:-80px;
+	}
+	
+}
+.about-content{
+	width:80%;
+	height:auto;
+	margin:auto;
+	padding-top:10px;
+	position:absolute;
+	left:10%;
+	top:25%;
+	line-height:30px;
+	letter-spacing:2px;
+	}
+	.about-content h2{
+	text-align:center;
+	font-family: 'Raleway';
+	font-size:20px;
+	line-height:150%;
+	padding-bottom:12%;
+}
+.about-content h3{
+	font-size:6vw;
+	text-align:left;
+	padding-top:20px;
+	color:#FFDF00;
+}
+.about-content ol li{color:#FFDF00;margin-top:10%;margin-left:20px;font-size:4vw;}
+.about-content dl dt{font-size:4vw;margin-top:3%;text-align:left;line-height:2rem;}
+.about-content dl dd{font-size:4vw;margin-left:5%;margin-top:2%;}
+.about-content p{font-size:4vw;}
+.about-content ol dd{padding-top:2%;font-size:4vw;}
+.dance{
+	width:100%;
+	position:absolute;
+	top:17%;
+	left:0%;
+}
+.dance #secondDanceImg{
+	width:100%;
+	position:absolute;
+	left:3%;
+	z-index:9999;
+}
+.dance img{ max-width:60%;position:absolute;left:40%;}
+/******************* FAQ Page *****************/
+.extraheightwrapperFaq{height: 450vh;}
+.faq-content{width:80%;
+	position:absolute;
+	left:13%;
+	top:5%;
+}
+.faq-content ol li{margin-left:10px;font-size:4vw;}
+.faq-content ol dd{font-size:4vw;}
+/******************* END FAQ Page *****************/
+/**************** Contact Page (max-width: 375px)*************************/
+.extraheightwrapperContact{
+	width: 100%;
+	height: 250vh;
+    margin: auto;	
+    border: 0;
+    position: relative;
+	background-repeat:no-repeat;
+}
+.contact-banner{
+	height:30vw; }
+#about-banner{height:20vw;}
+#about-banner h1{ top:15%;}
+.contact-banner h1{
+	width:90%;   
+    font-size: 10vw;	
+	letter-spacing: 5px;
+	top:12%;
+	}
+.details{
+	width: 90vw;
+    height:30vw;
+	position:absolute;
+	left:5%;
+	top:12%;	
+}
+.details h3{
+	font-size:25px;padding-top:20px;padding-bottom:10px;
+	
+}
+.details div{ height: 12vw; }
+.details div #icon{width:7vw;margin-top:2%;}
+.details div p{width:65%;font-size: 5vw;position:relative;left:25%;top:-65%;}
+.details div p a{color:#000;width:60%;font-size: 4.5vw;letter-spacing: 3px;position:relative;left:0%;top:-55%;}
+.contact-social div{text-align:center;margin-top:3%;}
+.contact-social div a{padding:3%;}
+.contact-social div a img.tilt{width:7%;}
+.form-container {
+	width:90%;
+    font-size: 1vw;
+	position:absolute;
+	left:5%;
+	top:34%;
+	text-align:center;
+}
+.form-container h3{text-align:center;	
+	color:black;font-size:25px;padding-top:20px;padding-bottom:10px;
+	}
+	
+	#contactHours{			
+			width:90%;
+			margin:auto;
+			position:absolute;
+			left:5%;
+			top:70%;
+	}
+#contactHours h3{
+	background-color:#fff;	
+	font-size:8vw;	
+	padding:20px;
+	
+}
+#contactHours p{
+	background-color:rgba(226,244,251,1);
+	padding:20px 30px;width:100%;font-size: 5vw;letter-spacing: 3px;
+}
+}
+
+@media only screen and (max-width: 375px)and (max-height:480px) and (orientation:landscape){
+	
+	
+}
